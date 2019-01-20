@@ -1,12 +1,20 @@
 # ez-tollmanagement-system-replica
 This database project which is a replica of the EZ-PASS toll management system.
 
+SETUP:
+1) Install Oracle SQL Developer
+2) Establish a new connection.
+3) Run Drop,Create,Insert Table SQL.sql file.
+4) Run 'ALL FEATURES.sql' file.
+5) 'Run Features.sql' file contants execute statements to run all features.
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 NOTES:
 1) This project is a replica of the toll management system popular in United States. 
 2) For reference you can refer to: Maryland https://www.ezpassmd.com and Virginia https://www.ezpassva.com/
 3) Each feature is implemented as one or more Oracle PL/SQL procedures/functions.
+4) Feel free to contact me if you have any doubts.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ASSUMPTIONS:
@@ -61,7 +69,7 @@ ASSUMPTIONS:
       status = 3, the license plate can be used to link to a vehicle but not an account (the vehicle owner does not have a ezpass 
       account). When status = 1 or 2, if there is enough balance in the account ez-pass rate will apply. If status = 3 or there is not 
       enough balance video rate will apply (a video toll bill will be sent). 
-  d.	The deducted column in trip table indicates whether the toll of this trip has been deducted from account or a video toll bill has 
+  d.	The deducted column in trip table indicates whether the toll of this trip has been deducted from account or a video toll bill           has 
       been generated. This column can be used to prevent deducting the same trip twice.  
 13.	The system needs to store payment to an account, including a payment id, account id, payment date, and amount. 
 14.	The system stores video_bill information, including a bill id, bill date, associated trip id, and status. Status = 1 means the bill 
