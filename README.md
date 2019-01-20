@@ -2,7 +2,8 @@
 This database project which is a replica of the EZ-PASS toll management system.
 
 SETUP:
-1) Install Oracle SQL Developer
+1) Install Oracle SQL Developer from:
+   https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/sqldev-install-windows-1969674.html
 2) Establish a new connection.
 3) Run Drop,Create,Insert Table SQL.sql file.
 4) Run 'ALL FEATURES.sql' file.
