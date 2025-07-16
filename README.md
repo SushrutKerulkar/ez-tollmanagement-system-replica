@@ -13,7 +13,7 @@ SETUP:
 
 NOTES:
 1) This project is a replica of the toll management system popular in United States. 
-2) For reference you can refer to: Maryland https://www.ezpassmd.com and Virginia https://www.ezpassva.com/
+2) For reference you can refer to: Maryland https://www.driveezmd.com/ and Virginia https://www.ezpassva.com/
 3) Each feature is implemented as one or more Oracle PL/SQL procedures/functions.
 4) Feel free to contact me if you have any doubts.
 
